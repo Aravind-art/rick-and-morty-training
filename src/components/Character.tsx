@@ -30,7 +30,7 @@ export default function Component({ character }) {
         <img src={character.image} />
       </CardContent>
       <CardFooter>
-        <p>Card Footer</p>
+        <p>{character.species}</p>
       </CardFooter>
     </Card>
   );
